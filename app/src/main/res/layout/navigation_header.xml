@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp "
+    android:background="@drawable/header"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:padding="14dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+   <!-- step two
+    where we create our custome drawer with
+    -large image above
+    -small icon that overlayed it
+    -and two text_view
+-->
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="my_small_image_icon"
+        android:scaleType="centerCrop"
+        android:src="@drawable/smallicon" />
+
+
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="UDUS-DEMO"
+
+        />
+
+    <TextView
+        android:textColor="@android:color/black"
+        android:text="udus"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+
+        />
+
+</LinearLayout>

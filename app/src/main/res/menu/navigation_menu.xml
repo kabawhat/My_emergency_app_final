@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+
+
+
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+        <!-- - step three
+    where we defined our navigation_items
+    and the icons-->
+
+
+        <item
+            android:id="@+id/home_icon"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/police_icon"
+            android:icon="@drawable/ic_local_police_black_24dp"
+            android:title="Police" />
+
+
+        <item
+            android:id="@+id/ambulance_icon"
+            android:icon="@drawable/ic_local_ambualnce_24dp"
+            android:title="Ambulance" />
+
+
+        <item
+            android:id="@+id/fire_service"
+            android:icon="@drawable/fireservice_black_24dp"
+            android:title="fire-service" />
+
+
+    </group>
+
+
+    <item android:title=" ----------">
+
+
+        <menu>
+
+            <item
+                android:id="@+id/maps"
+                android:icon="@drawable/ic_map_black_24dp"
+                android:title="Maps"
+
+                />
+
+            <item
+
+                android:id="@+id/others"
+                android:title="Othes"
+
+                />
+
+
+        </menu>
+
+
+    </item>
+
+
+</menu>

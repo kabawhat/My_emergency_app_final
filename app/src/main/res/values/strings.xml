@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My_emergency_app</string>
+    <string name="open_navigation">open_navigation</string>
+    <string name="close_naviagtion">close_navigation</string>
+</resources>
